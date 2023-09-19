@@ -7,6 +7,7 @@
 ## Table of content: 
 
 |No.|Video Content                                            |
+|---|---------------------------------------------------------|
 |1  |`'hello-world, jsx, render elements'`                    |
 |2  |`'components, state, props, handling events'`            |
 |3  |`'conditional rendering, lists and keys'`                |
