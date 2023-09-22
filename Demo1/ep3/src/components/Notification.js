@@ -16,7 +16,7 @@ function Notify() {
 				title='add more'
 				className='btn'
 				onClick={() => setCounter(++counter)}>
-				👆
+				👆 
 			</button>
 			<button
 				title='read all'
