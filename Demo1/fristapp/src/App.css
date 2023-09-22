@@ -104,3 +104,27 @@ margin-top: 15px;
 .form input[type=text]{
   margin-left:15px
 }
+.regform{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: flex-end;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+  background: #2196F3;
+}
+.regform input{
+  margin: 5px 0;
+}
+.regform input[type=submit]{
+  width: 170px;
+  padding: 5px;
+  background-color: #FF9800;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 2px 3px 1px 0px #4b4b4b;
+}

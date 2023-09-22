@@ -8,13 +8,13 @@ function Products(props) {
 				<img src={props.prod.img} alt={props.prod.name} />
 				<h4>{props.prod.name}</h4>
 				<span>{props.prod.price}</span>
-				<input type='number' value={amount} />
-				<button
+				{/* <input type='number' value={amount} /> */}
+				{/* <button
 					onClick={() => {
 						setAmount(++amount)
 					}}>
 					+
-				</button>
+				</button> */}
 			</div>
 		</section>
 	)

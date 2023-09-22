@@ -5,7 +5,7 @@ import {useState} from "react"
 function UserInfo(props) {
 	let [name, setName] = useState("Geust")
 	let [btnText, setBtnText] = useState("login")
-	console.log(props)
+
 	return (
 		<div className={props.user.position}>
 			<Avatar imgurl={props.user.imgurl} />

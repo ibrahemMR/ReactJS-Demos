@@ -2,6 +2,7 @@ import React from "react"
 import ReactDOM from "react-dom/client"
 import "./index.css"
 import App from "./App"
+import Form from "./componenets/Form"
 import {Welcome, OnChangeWelcome} from "./componenets/Welcome"
 import Products from "./componenets/Products"
 const root = ReactDOM.createRoot(document.getElementById("root"))
@@ -21,5 +22,7 @@ root.render(
 			<Products prod={prod} />
 		</section>
 		<OnChangeWelcome />
+		<br />
+		<Form />
 	</React.StrictMode>
 )

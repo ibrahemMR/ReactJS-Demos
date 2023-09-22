@@ -1,10 +1,17 @@
 import React from "react"
 import "../App.css"
+
 class Welcome extends React.Component {
 	state = {
 		fristName: "Yasser",
 		lastName: "Assem",
 		name: this.props.name,
+	}
+	changName = () => {
+		this.setState({
+			name: "Ameer",
+			lastName: "Mohamed Asem",
+		})
 	}
 
 	render() {
@@ -17,15 +24,7 @@ class Welcome extends React.Component {
 				<h5>
 					Created By, {this.state.fristName} {this.state.lastName}
 				</h5>
-				<button
-					onClick={() => {
-						this.setState({
-							name: "Ameer",
-							lastName: "Mohamed Asem",
-						})
-					}}>
-					Change Name
-				</button>
+				<button onClick={this.changName}>Change Name</button>
 			</div>
 		)
 	}
@@ -34,6 +33,10 @@ class Welcome extends React.Component {
 class OnChangeWelcome extends React.Component {
 	state = {
 		name: "Geust",
+	}
+	//edit Geust name to typed name
+	editName = (value) => {
+		this.setState({name: value})
 	}
 	render() {
 		return (
@@ -44,8 +47,7 @@ class OnChangeWelcome extends React.Component {
 					type='text'
 					placeholder='Enter Your Name'
 					onChange={(e) => {
-						// edit h3 Geust name with new typed value
-						this.setState({name: e.target.value})
+						this.editName(e.target.value)
 					}}
 					onBlur={(e) => {
 						//clear input text
