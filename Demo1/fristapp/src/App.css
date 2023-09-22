@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+}
+
+.name{
+  background-color: #fff;
+}
+.home{
+  height: 70px;
+  padding: 5px;
+  border: 2px solid #f3db0b;
+  border-radius: 15px;
+  background-color: #0498fc;
+}
+.navbar{
+  position: absolute;
+  top:10px;
+  left:30px;
+}
+.navbar img{
+  width: 25px;
+  height: 25px;
+}
+.navbar h3{
+font-size: 12px;
+margin-top: 15px;
+}
+.usernInfo button{
+  background-color: chartreuse;
+  padding:5px ;
+  margin-top: 23px;
+  cursor: pointer;
+
+}
+.logo{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  float: left;
+  margin: 10px;
+}
+.username{
+  color:#fff;
+  margin:25px 20px 0 0 ;
+  float: left;
+  font-size: 18px;
+}
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.cards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  width: 220px;
+  background: #FF9800;
+  padding: 10px;
+  position: relative;
+  top:-90px;
+  margin-left: 10px;
+}
+
+/* Products */
+.productsSection{
+  display: block;
+  margin-top: 70px;
+}
+.products{
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: stretch;
+
+}
+.products .product{
+  width: 220px;
+  background: #FF9800;
+  padding: 10px;
+  position: relative;
+  top:-90px;
+  margin-left: 10px;
+}
+
+.form{
+  background-color: #FF9800;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 70px;
+}
+.form input[type=text]{
+  margin-left:15px
+}

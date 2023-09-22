@@ -1,10 +1,9 @@
 ## React JS arabic Courses:
 
-- **Ahmed Nasser Tut** >> [Link](https://www.youtube.com/playlist?list=PLQtNtS-WfRa9LbmD8ON7rWhn-AtKTGdkn)
+- **Ahmed Nasser** >> [Link](https://www.youtube.com/playlist?list=PLQtNtS-WfRa9LbmD8ON7rWhn-AtKTGdkn)
 > **Note:** the instructor is amazing  :)
 
-
-## Table of content: 
+# Table of content: 
 
 |No.|Video Content                                            |
 |---|---------------------------------------------------------|
@@ -16,3 +15,5 @@
 |6  |`'Basic CRUD App'`                                       |
 |7  |`'Fix CRUD App Fetch And Route Issues'`                  |
 |8  |`'State Lifting Up, Props Drilling, Context API, Recoil'`|
+
+- **Brain Design** >> [link](https://www.youtube.com/playlist?list=PLs1fqgQpnCmJSkrDA2wTsSsLnYpE8jpVy)
