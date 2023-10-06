@@ -3,4 +3,4 @@
 
 ## Preview Interface
 
-![Preview Image of Interface](https://github.com/ibrahemMR/ReactJS-Demos/blob/master/x-buyer/preview.png?raw=true)
+![Preview Image of Interface](https://github.com/ibrahemMR/ReactJS-Demos/blob/master/Demos/x-buyer/preview.png)
