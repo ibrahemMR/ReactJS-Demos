@@ -1,6 +1,6 @@
 ## React JS arabic Courses:
 
-- **Ahmed Nasser** >> [Link](https://www.youtube.com/playlist?list=PLQtNtS-WfRa9LbmD8ON7rWhn-AtKTGdkn)
+- **Ahmed Nasser** >> [youtube PL](https://www.youtube.com/playlist?list=PLQtNtS-WfRa9LbmD8ON7rWhn-AtKTGdkn)
 > **Note:** the instructor is amazing  :)
 
 # Table of content: 
